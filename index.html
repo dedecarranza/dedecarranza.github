@@ -1,10 +1,91 @@
-<!DOCTYPE HTML>
- <html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
- <meta charset="utf-8">
- <title>Hello, World!</title>
- </head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Simple and Healthy Pizza Recipe</title>
+ <link rel="stylesheet" href="recipe-styles.css">
+</head>
 <body>
- Hello, World!
- </body>
+ <article>
+ <header>
+ <h1>Healthy Pepperoni Pizza!</h1>
+ <img src="flatbread pizza.jpg" alt="Pepperoni Pizza" class="recipe-img">
+ </header>
+ <section class="ingredients">
+ <h2>Ingredients</h2>
+ <ul>
+ <li>1 flatbread (stonefire artisan flatbread is my favorite!)</li>
+ <li>1 cup of reduced fat mozzarella cheese</li>
+ <li>1 cup of barilla marinara sauce</li>
+ <li>15 slices of turkey pepperoni</li>
+
+ </ul>
+ </section>
+ <section class="instructions">
+ <h2>Instructions</h2>
+ <ol>
+ <li>Preheat over to 350 degrees</li>
+ <li>Sread out wax paper on a large pan and drizzle extra virgin olive oil on top</li>
+ <li>Place the flatbread pizza on top</li>
+ <li>Leave flatbread pizza in oven for 10-12 minutes</li>
+ <li>Finally Enjoy!</li>
+  <p>Link for Gluten Free pizza recipe:</p>
+   <a href="https://glutenfreeonashoestring.com/gf-pizza-dough/"
+ target="_blank">Gluten Free Pizza</a>
+ </p>
+ </ol>
+ </section>
+ </article>
+ <footer>
+ <p>Recipe by: Dede Carranza</p>
+ </footer>
+</body>
 </html>
+<style>
+/* Basic Reset */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ font-family: 'Arial', sans-serif;
+ line-height: 1.6;
+ min-height: 100vh; /* Ensures the content takes the full height of the viewport */
+ padding: 20px;
+ background-color: #f4f4f4;
+ margin: 0; /* Ensures there's no margin causing misalignment */
+}
+header {
+ text-align: center;
+ margin-bottom: 20px;
+}
+.recipe-img {
+ width: 300px; /* Adjust the size as needed */
+ height: auto;
+ border-radius: 10%;
+}
+h1 {
+ margin-top: 10px;
+}
+.ingredients h2, .instructions h2 {
+ color:red;
+ text-align: center;
+ margin-bottom: 20px;
+}
+ul, ol {
+ text-align: left; /* Keeps text in lists aligned to the left for readability */
+ margin: 0 auto; /* Centers the lists themselves */
+ padding: 0;
+ max-width: 300px; /* Keeps the content neatly aligned */
+}
+footer {
+ text-align: center;
+ margin-top: 10px;
+}
+</style>
